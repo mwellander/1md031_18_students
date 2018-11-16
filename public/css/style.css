@@ -1,0 +1,75 @@
+
+body {
+    font-family: courier;
+}
+.contains {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.firstpic{
+  opacity:0.6;
+  width:100%;
+}
+.headline{
+  font-size: 40px;
+  margin-left: 20%;
+  margin-right:20%;
+  margin-top: 10%;
+  color:blue;
+  opacity:1;
+  position:absolute;
+}
+.header{
+  margin-left:5%;
+  margin-right:5%;
+  height:300px;
+  overflow:hidden;
+}
+.choose{
+  color: white;
+  background-color: black;
+  margin-left:5%;
+  margin-right:5%;
+  padding:10px;
+  border: 5px dotted white;
+}
+.fontburger{
+  font-size: 15px;
+  font-weight:bold;
+}
+.personal{
+  margin-left:5%;
+  margin-right:5%;
+  padding:10px;
+  border: 5px dotted black;
+}
+button:hover {
+    background-color: white;
+    cursor:pointer;
+}
+button{
+  margin:20px
+}
+table {
+  width:70%;
+  margin-left:15%;
+  margin-right:15%;
+}
+.burgers{
+  display: grid;
+  width:70%;
+  margin-left:15%;
+  margin-right:15%;
+  grid-gap: 150px;
+  grid-template-columns: 100px 100px 100px;
+}
+
+.container{
+  display:flex;
+  justify-content:space-evenly;
+
+}
+.burgername{
+  font-size: 8%;
+  font-style: bold;
+}
